@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.titleDiv {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}

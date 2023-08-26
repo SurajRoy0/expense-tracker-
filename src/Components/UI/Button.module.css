@@ -1,0 +1,7 @@
+.action {
+  background-color: gold;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 20px;
+  cursor: pointer;
+}

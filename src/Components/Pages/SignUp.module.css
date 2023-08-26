@@ -1,0 +1,56 @@
+.container {
+  max-width: 300px;
+  margin: 20vh auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+.title {
+  margin: 0 auto 20px auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #1646e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0a2685;
+}
+
+.change-auth {
+  color: blueviolet;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wrong-password {
+  color: red;
+}

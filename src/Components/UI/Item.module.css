@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid blueviolet;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}

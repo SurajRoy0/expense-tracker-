@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+  background-color: blueviolet;
+  padding: 0 200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.options {
+  font-size: 22px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+.ActiveNav {
+  color: black;
+  font-weight: 900;
+}
+
+.options:hover {
+  color: black;
+  font-weight: 900;
+}
