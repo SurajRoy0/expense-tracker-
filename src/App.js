@@ -28,7 +28,7 @@ function App() {
       <Navbar />
       <Routes>
         {isLoggedIn && <Route path='/' element={<Home />} />}
-        <Route path='/sign-in' element={<SignIn />} />
+        {!isLoggedIn &&<Route path="/" element={<SignIn />} />}
         {!isLoggedIn && <Route path='/sign-up' element={<SignUp />} />}
         {isLoggedIn && <Route path='/user-profile' element={<UserProfile verifyModalOpenHandler={verifyModalOpenHandler} />} />}
       </Routes>

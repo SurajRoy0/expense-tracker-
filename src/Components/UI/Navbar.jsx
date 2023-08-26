@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Navbar.module.css";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaCheckCircle } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { authActions } from "../../Store/Auth";
@@ -14,11 +14,8 @@ const Navbar = () => {
 
   const dispatch = useDispatch();
 
-  const navigate = useNavigate();
-
   const signOutHandler = () => {
     dispatch(authActions.logOut());
-    navigate("/sign-in");
   };
 
   const changeThemeHandler = () => [dispatch(themeChanger())];
